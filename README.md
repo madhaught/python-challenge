@@ -12,3 +12,5 @@ There is a separate python script for each folder and each script exports a text
 To run the script in the PyBank folder, one should change directories to be in the PyBank folder within the python-challenge folder (~/python-challenge/PyBank), rather than running it from the python-challenge folder.
 
 Similarly, to run the script in the PyPoll folder, one should change directories from the python-challenge folder to the PyPoll folder (~/python-challenge/PyPoll).
+
+For parts of my code that I got stuck on, I referenced forums such as pythontutorial.net, stackoverflow.com, and geeksforgeeks.org. The specific links to the pages where I found answers to my questions are commented above the relevant lines of code. These are instances where I did not originate the code or learn the specific commands in class.
