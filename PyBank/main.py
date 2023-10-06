@@ -12,7 +12,7 @@ with open(csvpath) as csvfile:
     # Read and store the header row
     csv_header = next(csvreader)
 
-    #define variables and create lists before creating a for loop
+    # define variables and create lists before creating a for loop
     total_months = 0
     profits = []
     profit_change = []
@@ -36,7 +36,7 @@ with open(csvpath) as csvfile:
         # https://www.geeksforgeeks.org/python-generate-successive-element-difference-list/
         profit_change = [int(profits[i + 1]) - int(profits [i]) for i in range (len(profits)-1)]
     
-    #determine the total change in profits by adding up the individual values
+    # determine the total change in profits by adding up the individual values
     # of the change in monthly profits
     net_change = 0
     for i in profit_change:
@@ -45,10 +45,10 @@ with open(csvpath) as csvfile:
     
     # create a list of dates with the corresponding length and index numbers
     # to the profit_change list
-    #https://www.geeksforgeeks.org/python-removing-first-element-of-list/
+    # https://www.geeksforgeeks.org/python-removing-first-element-of-list/
     reduced_dates = dates[1:]
 
-    #determine the average change in profits by dividing net_change by the number
+    # determine the average change in profits by dividing net_change by the number
     # of values in net_change
     # https://stackoverflow.com/questions/45310254/fixed-digits-after-decimal-with-f-strings
     average_change = f"{(net_change/(total_months-1)):.2f}"
