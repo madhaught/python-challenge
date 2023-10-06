@@ -7,7 +7,7 @@ The first part of the challenge is in the folder "PyBank". This challenge was to
 
 The second part of the challenge is in the folder "PyPoll". This challenge was to analyze election data from a csv and calculate the number of votes each candidate received, as well as determining the winner of the election.
 
-There is a separate python script for each folder and each script exports a text file with the pre-specified values asked for in the challenge instructions to a folder named "analysis".
+There is a separate python script for each folder and each script exports a text file with the pre-specified values asked for in the challenge instructions to a folder named "analysis", within the parent folder.
 
 To run the script in the PyBank folder, one should change directories to be in the PyBank folder within the python-challenge folder (~/python-challenge/PyBank), rather than running it from the python-challenge folder.
 
